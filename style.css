@@ -11,22 +11,21 @@
 
 #container {
     width: 100%;
-    min-height:100vh ;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(to left top, #48c6ef 0%, #6f86d6 100%)
-
 }
 
 #list_container {
-    margin-top:70px ;
-    margin-bottom:70px ;
+    margin-top: 70px;
+    margin-bottom: 70px;
     width: 600px;
     height: auto;
     padding: 23px;
     background-color: #ffffff;
-    border:none;
+    border: none;
     border-radius: 8px;
     box-shadow: 0px 0px 2px 2px #6a6d6e;
 }
@@ -77,7 +76,7 @@ ul li {
 
 ul li::before {
     content: '';
-    background-image: url("/Project_30/img/images/unchecked.png");
+    background-image: url("./unchecked.png");
     position: absolute;
     height: 28px;
     width: 28px;
@@ -88,7 +87,7 @@ ul li::before {
 }
 
 .checked::before {
-    background-image: url("/Project_30/img/images/checked.png");
+    background-image: url("./checked.png");
 }
 
 span {
@@ -96,5 +95,5 @@ span {
     right: 24px;
     font-size: 25px;
     top: 0px;
-    
+
 }
