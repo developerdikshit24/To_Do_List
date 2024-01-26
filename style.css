@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+#container {
+    width: 100%;
+    min-height:100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left top, #48c6ef 0%, #6f86d6 100%)
+
+}
+
+#list_container {
+    margin-top:70px ;
+    margin-bottom:70px ;
+    width: 600px;
+    height: auto;
+    padding: 23px;
+    background-color: #ffffff;
+    border:none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 2px #6a6d6e;
+}
+
+#list_container input {
+    padding: 14px 13px 16px;
+    width: 75%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    margin-right: 8px;
+    font-weight: 700;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 2px 2px #cecece;
+
+}
+
+#btn {
+    padding: 13px;
+    width: 85px;
+    border-radius: 20px;
+    background-color: #ff9b29;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    box-shadow: 0px 0px 2px 2px #c19564;
+}
+
+#btn:hover {
+    background-color: #e07f10;
+
+}
+
+ul li {
+    list-style: none;
+    padding: 8px;
+    padding-left: 48px;
+    margin: 8px;
+    position: relative;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: rgb(128, 125, 125);
+}
+
+ul li::before {
+    content: '';
+    background-image: url("/Project_30/img/images/unchecked.png");
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 7px;
+    left: 4px;
+}
+
+.checked::before {
+    background-image: url("/Project_30/img/images/checked.png");
+}
+
+span {
+    position: absolute;
+    right: 24px;
+    font-size: 25px;
+    top: 0px;
+    
+}
