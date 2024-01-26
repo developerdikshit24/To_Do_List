@@ -1,31 +1,32 @@
-@media(max-width:360px){
-  
-    #list_container{
+@media(max-width:360px) {
+
+    #list_container {
         padding: 10px;
         width: 95%;
     }
 
-#list_container input{
-    width: 66%;
-    padding: 7px 18px 8px;
-    margin: 15px;
-    margin-right: 8px;
-}
-#btn{
-    padding: 4px;
-    width: 65px;
-    font: 10px;
-  
-}
-ul li::before{
-height: 24px;
-    width: 25px;
-    top: 8px;
-    left: 4px;
+    #list_container input {
+        width: 66%;
+        padding: 7px 18px 8px;
+        margin: 15px;
+        margin-right: 8px;
+    }
+
+    #btn {
+        padding: 5px;
+        width: 65px;
+        font: 10px;
+
+    }
+
+    ul li::before {
+        height: 25px;
+        width: 25px;
+        top: 8px;
+        left: 4px;
     }
 }
-ul li{
+
+ul li {
     padding-left: 40px;
 }
-
-
