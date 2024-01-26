@@ -1,33 +1,31 @@
-@media(max-width:450px) {
-    #list_container {
-        width: 90%;
+@media(max-width:360px){
+  
+    #list_container{
         padding: 10px;
-        margin-top: 40px;
-      margin-bottom: 40px;
+        width: 95%;
     }
 
-    #list_container input {
-        width: 210px;
-        margin: 16px;
-        margin-right: 10px;
-        padding: 9px 8px 10px;
-    }
-
-    #btn {
-        padding: 7px;
-        width: 75px;
-        font-size: 15px;
-        border-radius: 18px
-    }
-    ul li {
-        padding: 4px;
-        padding-left:35px ;
-        margin: 4px;
-    }
-    ul li::before{
-        height: 20px;
-        width: 20px;
-        top: 7px;
-        left: 4px;
+#list_container input{
+    width: 66%;
+    padding: 7px 18px 8px;
+    margin: 15px;
+    margin-right: 8px;
+}
+#btn{
+    padding: 4px;
+    width: 65px;
+    font: 10px;
+  
+}
+ul li::before{
+height: 24px;
+    width: 25px;
+    top: 8px;
+    left: 4px;
     }
 }
+ul li{
+    padding-left: 40px;
+}
+
+
