@@ -41,6 +41,7 @@
     font-weight: 700;
     text-transform: capitalize;
     box-shadow: 0px 0px 2px 2px #cecece;
+    cursor: pointer;
 
 }
 
@@ -54,6 +55,7 @@
     font-weight: 700;
     color: #ffffff;
     box-shadow: 0px 0px 2px 2px #c19564;
+    cursor: pointer;
 }
 
 #btn:hover {
@@ -67,6 +69,7 @@ ul li {
     padding-left: 48px;
     margin: 8px;
     position: relative;
+    cursor: pointer;
 }
 
 .checked {
@@ -84,6 +87,7 @@ ul li::before {
     background-size: cover;
     top: 7px;
     left: 4px;
+    cursor: pointer;
 }
 
 .checked::before {
